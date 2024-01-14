@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/858b52eeaa.js" crossorigin="anonymous"></script>
+    <title>Advanced Search</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navBarAndrea" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link navLinkAndrea" href="index.html">Google Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="googleImages">
+            <h1 id="google">Google</h1>
+            <h2 style="text-align: right;">Advanced Search</h2>
+        </div>
+        <h3 id="formAdvanced">Find pages with…</h3>
+        <form action="https://www.google.com/search" style="width: 50vw;">
+            <div>
+                <div class="advancedSearchOption"> <!--all these words:-->
+                    <label class="advancedSearchOption_text" for="nombre">all these words:</label>
+                    <input class="advancedSearchBar" type="text" name="as_q">
+                </div>
+                <div class="advancedSearchOption"> <!--this exact word or phrase:-->
+                    <label class="advancedSearchOption_text" for="nombre">this exact word or phrase:</label>
+                    <input class="advancedSearchBar" type="text" name="as_epq">
+                </div>
+                <div class="advancedSearchOption"> <!--any of these words:-->
+                    <label class="advancedSearchOption_text" for="nombre">any of these words:</label>
+                    <input class="advancedSearchBar" type="text" name="as_oq">
+                </div>
+                <div class="advancedSearchOption"> <!--none of these words:-->
+                    <label class="advancedSearchOption_text" for="nombre">none of these words:</label>
+                    <input class="advancedSearchBar" type="text" name="as_eq">
+                </div>
+            </div>
+            <input id="botonAdvanced" type="submit" value="Advanced Search">
+        </form>
+    </main>
+</body>
+
+</html>

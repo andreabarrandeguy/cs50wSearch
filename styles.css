@@ -1,0 +1,110 @@
+nav {
+    height: 10vh;
+}
+
+.navBarAndrea {
+    justify-content: right;
+}
+
+.navBarAndrea .navLinkAndrea {
+    color: black;
+}
+
+main {
+    height: 90vh;
+    text-align: -webkit-center;
+}
+
+#google {
+    font-size: 6rem;
+}
+
+#searchBar {
+    margin-top: 5vh;
+    height: 40px;
+    width: 500px;
+    border: 1px solid rgba(223,225,229);
+    border-radius: 24px;
+    margin-bottom: 5vh; 
+}
+
+#searchBar:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#searchText {
+    width: 450px;
+    margin-top: 5px;
+    border: none;
+}
+
+.boton {
+    background-color: white;
+    border: 2px solid rgba(223,225,229);
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boton:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+#googleImages {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#formAdvanced {
+    text-align: left; 
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 50vw;
+}
+
+.advancedSearchOption {
+    width: 50vw; 
+    display: flex; 
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.advancedSearchOption_text {
+    width: 15vw;
+    text-align: left;
+}
+
+.advancedSearchBar {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    height: 25px;
+    padding: 1px 8px;
+    width: 35vw;
+}
+
+#botonAdvanced {
+    background-color: #357ae8;
+    border: 1px solid #3079ed;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5vh;
+}
+
+#botonAdvanced:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
